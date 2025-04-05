@@ -6,7 +6,7 @@ on:
     workflows: ["CI Pipeline"]
     types:
       - completed
-
+#Change to trigger new build
 jobs:
   deploy:
     runs-on: self-hosted
